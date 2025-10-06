@@ -30,37 +30,36 @@ public class VehicleInventory {
 
         int response = askQuestion("Enter your command:");
 
+        // this is where i will create the switch statement
+        switch(response){
+            case 1;
+        }
 
-    }
-    // this is where i will create the switch statement
-    switch(response){
-        case 1;
-    }
+        //I still am not entirely sure how to make a static method
+        //Lets start with what i need to happen
+        // i need to create a method that ask's for each of the information to be provided
+        //what Im doing in line 19 is essentially storing an asked question in a variable, why ?
+        //I dont need this variable to be called upon anywhere else
+        //
+        public static String listAllVehicals(String cars){
+            return makeModel;
 
-    //I still am not entirely sure how to make a static method
-    //Lets start with what i need to happen
-    // i need to create a method that ask's for each of the information to be provided
-    //what Im doing in line 19 is essentially storing an asked question in a variable, why ?
-    //I dont need this variable to be called upon anywhere else
-    //
-    public static String listAllVehicals(String cars){
-        System.out.println();
-        String answer = vroom.nextLine();
-        return answer.trim();
 
-    }
-    public static findVehicleByPrice(){
+        }
+        public static findVehicleByPrice(){
 
-    }
-    public static addAVehicle(){
+        }
+        public static addAVehicle(){
 
-    }
-    public static int askQuestion(int theQuestion){
-        System.out.println(theQuestion);
-        String response = vroom.nextLine();
-        return response.trim();
-    }
-    public static (){
+        }
+        public static int askQuestion(int theQuestion){
+            System.out.println(theQuestion);
+            String response = vroom.nextLine();
+            return response.trim();
+        }
+        public static (){
+
+        }
 
     }
 
