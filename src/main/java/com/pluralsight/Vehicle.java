@@ -7,6 +7,8 @@ public class Vehicle {//this class should have vehicle id, makeModel, color, odo
     private String color;
     private int odometerReading;
     private float price;
+    //every object instantiated with this vehicle class will have these feilds
+    //
 
     // creating a public method named vehicle
     //this is where the vehicle will get its characteristics
@@ -17,8 +19,10 @@ public class Vehicle {//this class should have vehicle id, makeModel, color, odo
         this.odometerReading = odometerReading;
         this.price = price;
     }
+    //^^ this is the constructor method
 
     // this is where i generated the setter and getter methods
+    //all the getter and setter methods is either get or chanhe the objects you needed
 
     public long getVehicleID() {
         return vehicleID;
